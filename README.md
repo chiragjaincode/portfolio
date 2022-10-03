@@ -1,2 +1,2 @@
 "# Portfolio" 
-https://chiragjaincode.github.io/Portfolio/
+https://chiragjaincode.github.io/portfolio/
