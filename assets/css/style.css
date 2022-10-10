@@ -871,6 +871,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     transform: scale(1.5);
 }
 
+.isotope .item:hover a {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
 
 /*.item img*/
 
