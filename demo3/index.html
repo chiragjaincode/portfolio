@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo2</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css" integrity="sha512-72McA95q/YhjwmWFMGe8RI3aZIMCTJWPBbV8iQY3jy1z9+bi6+jHnERuNrDPo/WGYEzzNs4WdHNyyEr/yXJ9pA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="dist/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-in">
+                <div class="left">
+                    <div class="logo"><img src="./img/logo.png" /></div>
+                    <div class="location">
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                             Location
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search">
+                        <div class="input-group">
+
+                            <input type="search" id="form1" class="form-control" placeholder="Search keywords..." />
+                            <button type="button" class="btn btn-primary">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <a href="#">Trips</a>
+                    <a href="#">Login</a>
+                    <a href="#" class="btn btn-primary">SignUp</a>
+                </div>
+            </div>
+
+
+            <div class="tabs">
+                <a href="#">
+                    <span>Destination</span>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </a>
+
+                <a href="#">
+                    <span>Hotels</span>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                </a>
+
+                <a href="#">
+                    <span>Homestays</span>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                </a>
+
+                <a href="#">
+                    <span>Tours</span>
+                    <i class="fa fa-plane" aria-hidden="true"></i>
+                </a>
+
+                <a href="#">
+                    <span>More</span>
+                    <i class="fa fa-credit-card" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <section class="article">
+
+        <div class="container">
+
+            <h2 class="title-main">Articles</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="item ovarlay">
+                        <div class="img-wrap"><img src="./img/rectangle-img-1.png" /></div>
+                        <div class="text-wrap ">
+
+                            <div class="profile"><img src="./img/author.png" /><span>Jhone DOe</span></div>
+                        </div>
+
+                        <div class="featured-icon">Featured</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="item ">
+                                <div class="img-wrap"><img src="./img/sm3.png" /></div>
+                                <div class="text-wrap ">
+                                    <h3 class="title">Sedial eiusmod tempor</h3>
+                                    <div class="profile"><img src="./img/author.png" /><span>Jhone DOe</span></div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="item ">
+                                <div class="img-wrap"><img src="./img/sm1.png" /></div>
+                                <div class="text-wrap ">
+                                    <h3 class="title">Sedial eiusmod tempor</h3>
+                                    <div class="profile"><img src="./img/author.png" /><span>Jhone DOe</span></div>
+                                </div>
+
+                                <div class="featured-icon">Featured</div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="item ">
+                                <div class="img-wrap"><img src="./img/sm1.png" /></div>
+                                <div class="text-wrap ">
+                                    <h3 class="title">Sedial eiusmod tempor</h3>
+                                    <div class="profile"><img src="./img/author.png" /><span>Jhone DOe</span></div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="item">
+                                <div class="img-wrap"><img src="./img/sm3.png" /></div>
+                                <div class="text-wrap ">
+                                    <h3 class="title">Sedial eiusmod tempor</h3>
+                                    <div class="profile"><img src="./img/author.png" /><span>Jhone DOe</span></div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row single">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="item ">
+                        <div class="img-wrap"><img src="./img/sm4.png" /></div>
+                        <div class="text-wrap ">
+                            <h3 class="title">Sedial eiusmod tempor</h3>
+                            <div class="profile"><img src="./img/author.png" /><span>Jhone DOe</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="item ">
+                        <div class="img-wrap"><img src="./img/sm3.png" /></div>
+                        <div class="text-wrap ">
+                            <h3 class="title">Sedial eiusmod tempor</h3>
+                            <div class="profile"><img src="./img/author.png" /><span>Jhone DOe</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="item ">
+                        <div class="img-wrap"><img src="./img/sm4.png" /></div>
+                        <div class="text-wrap ">
+                            <h3 class="title">Sedial eiusmod tempor</h3>
+                            <div class="profile"><img src="./img/author.png" /><span>Jhone DOe</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="item ">
+                        <div class="img-wrap"><img src="./img/sm1.png" /></div>
+                        <div class="text-wrap ">
+                            <h3 class="title">Sedial eiusmod tempor</h3>
+                            <div class="profile"><img src="./img/author.png" /><span>Jhone DOe</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-wrap"><button class="btn btn-primary">View More</button></div>
+        </div>
+    </section>
+
+    <section class="destination">
+        <div class="container">
+            <h2 class="title-main">Top Destinations</h2>
+
+        </div>
+
+        <div class="items">
+            <div class="item">
+                <div class="img-wrap"><img src="./img/tour.png" /></div>
+                <div class="text-wrap ">
+                    <h3 class="title">New York</h3>
+                    <div class="description">We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-wrap"><img src="./img/new-york.png" /></div>
+                <div class="text-wrap ">
+                    <h3 class="title">New York</h3>
+                    <div class="description">We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-wrap"><img src="./img/dubai.png" /></div>
+                <div class="text-wrap ">
+                    <h3 class="title">New York</h3>
+                    <div class="description">We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-wrap"><img src="./img/paris.png" /></div>
+                <div class="text-wrap ">
+                    <h3 class="title">New York</h3>
+                    <div class="description">We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-wrap"><img src="./img/dubai.png" /></div>
+                <div class="text-wrap ">
+                    <h3 class="title">New York</h3>
+                    <div class="description">We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-wrap"><img src="./img/tour.png" /></div>
+                <div class="text-wrap ">
+                    <h3 class="title">New York</h3>
+                    <div class="description">We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trips">
+
+        <div class="container">
+
+            <h2 class="title-main">Trips</h2>
+            <div class="row items">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="item">
+                        <div class="img-wrap"><img src="./img/light.png" alt="img" /></div>
+                        <div class="days">15Days</div>
+
+                        <div class="text-wrap ">
+                            <h3 class="title">London Trip</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="item">
+                        <div class="img-wrap"><img src="./img/light.png" alt="img" /></div>
+                        <div class="days">15Days</div>
+
+                        <div class="text-wrap ">
+                            <h3 class="title">London Trip</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="item">
+                        <div class="img-wrap"><img src="./img/light.png" alt="img" /></div>
+                        <div class="days">15Days</div>
+
+                        <div class="text-wrap ">
+                            <h3 class="title">London Trip</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="item">
+                        <div class="img-wrap"><img src="./img/light.png" alt="img" /></div>
+                        <div class="days">15Days</div>
+
+                        <div class="text-wrap ">
+                            <h3 class="title">London Trip</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="item">
+                        <div class="img-wrap"><img src="./img/light.png" alt="img" /></div>
+                        <div class="days">15Days</div>
+
+                        <div class="text-wrap ">
+                            <h3 class="title">London Trip</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="item">
+                        <div class="img-wrap"><img src="./img/light.png" alt="img" /></div>
+                        <div class="days">15Days</div>
+                        <div class="text-wrap ">
+                            <h3 class="title">London Trip</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="button-wrap"><button class="btn btn-primary">View More</button></div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+    <section class="banner">
+        <div class="text-content">
+            <h2 class="title-bg">Winter Weather</h2>
+
+            <p>Lets Go Travel <span class="big">UK</span></p>
+
+            <div class="button-wrap"><button class="btn btn-primary">View More</button></div>
+
+        </div>
+    </section>
+
+    <section class="top-hotels slider-hotels">
+
+        <div class="container">
+
+            <h2 class="title-main">Top Hotels</h2>
+            <div class=" items">
+
+                <div class="item">
+                    <div class="img-wrap"><img src="./img/hotel1.png" /> </div>
+                    <div class="text-wrap ">
+                        <h3 class="title">The Goring Hotel</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>London, UK</div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="img-wrap"><img src="./img/img2.png" /></div>
+                    <div class="text-wrap ">
+                        <h3 class="title">The Goring Hotel</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>London, UK</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img-wrap"><img src="./img/hotel1.png" /></div>
+                    <div class="text-wrap ">
+                        <h3 class="title">The Goring Hotel</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>London, UK</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img-wrap"><img src="./img/img2.png" /></div>
+                    <div class="text-wrap ">
+                        <h3 class="title">The Goring Hotel</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>London, UK</div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="img-wrap"><img src="./img/hotel1.png" /></div>
+                    <div class="text-wrap ">
+                        <h3 class="title">The Goring Hotel</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>London, UK</div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="img-wrap"><img src="./img/img2.png" /></div>
+                    <div class="text-wrap ">
+                        <h3 class="title">The Goring Hotel</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>London, UK</div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+    <section class="top-homestays slider-hotels">
+
+        <div class="container">
+
+            <h2 class="title-main">Top Homestays</h2>
+            <div class=" items">
+
+                <div class="item">
+                    <div class="img-wrap"><img src="./img/hotel1.png" /></div>
+                    <div class="text-wrap ">
+                        <h3 class="title">Barcelona holiday apartment</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>15Days</div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="img-wrap"><img src="./img/img2.png" /></div>
+                    <div class="text-wrap ">
+                        <h3 class="title">Alcala holiday penthouse</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>15Days</div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="img-wrap"><img src="./img/hotel1.png" /></div>
+                    <div class="text-wrap ">
+                        <h3 class="title">Golf del Sur holiday villa</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>15Days</div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="img-wrap"><img src="./img/img2.png" /></div>
+                    <div class="text-wrap ">
+                        <h3 class="title">Golf del Sur holiday villa</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>15Days</div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="img-wrap"><img src="./img/hotel1.png" /></div>
+                    <div class="text-wrap ">
+                        <h3 class="title">Lorem ipsum dolor</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>15Days</div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="img-wrap"><img src="./img/img2.png" /></div>
+                    <div class="text-wrap ">
+                        <h3 class="title">Golf del Sur holiday villa</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>15Days</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </section>
+
+    <div class="testimonial">
+        <div class="container">
+            <h2 class="title-main">Reviews</h2>
+            <div class="slider-testimonial">
+                <div class="item-wrap">
+                    <div class="item">
+                        <div class="text-description">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.”
+                        </div>
+
+                        <div class="img-wrap">
+                            <img src="./img/profile.png" />
+                        </div>
+                    </div>
+
+
+                    <div class="detail">
+                        <div class="title">John Doe</div>
+                        <div class="location">
+                            New York, USA</div>
+
+                    </div>
+                </div>
+
+                <div class="item-wrap">
+                    <div class="item">
+                        <div class="text-description">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.”
+                        </div>
+
+                        <div class="img-wrap">
+                            <img src="./img/profile.png" />
+                        </div>
+                    </div>
+
+
+                    <div class="detail">
+                        <div class="title">John Doe</div>
+                        <div class="location">
+                            New York, USA</div>
+
+                    </div>
+                </div>
+
+                <div class="item-wrap">
+                    <div class="item">
+                        <div class="text-description">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.”
+                        </div>
+
+                        <div class="img-wrap">
+                            <img src="./img/profile.png" />
+                        </div>
+                    </div>
+
+
+                    <div class="detail">
+                        <div class="title">John Doe</div>
+                        <div class="location">
+                            New York, USA</div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-links">
+                            <div class="logo">
+                                <img src="./img/logo.png" alt="logo" />
+                            </div>
+
+                            <div class="contact">
+                                <ul>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="#">+44 00 123 4567
+                                    </a></li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">mail@demo-hotels.com
+                                    </a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="footer-links ">
+                            <h4 class="title">Quick links</h4>
+                            <div class="activites border-link">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+
+                                    <li><a href="#">Trips</a></li>
+
+                                    <li><a href="#">Popular Cities</a></li>
+                                    <li><a href="#">Contact us</a></li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-2">
+                        <div class="footer-links">
+                            <h4 class="title">
+
+                            </h4>
+                            <div class="activites">
+                                <ul>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">  How it works</a></li>
+                                    <li><a href="#">Legal</a></li>
+
+                                    <li><a href="#">FAQs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="footer-links social">
+                            <h4 class="title">Contact with us</h4>
+                            <div class="social">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="description"> © 2021 demo.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                    a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+            </div>
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo" />
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="./dist/script.js"></script>
+</body>
+
+</html>
