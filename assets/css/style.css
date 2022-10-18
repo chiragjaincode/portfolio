@@ -863,6 +863,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     transition: .5s;
 }
 
+.isotope a {
+    width: 100%;
+}
+
 .isotope .item:hover img {
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
@@ -871,7 +875,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     transform: scale(1.5);
 }
 
-.isotope .item:hover a {
+.isotope .item a {
     color: #fff;
     font-weight: bold;
     text-align: center;
@@ -912,7 +916,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     text-align: center;
 }
 
-.isotope .item:hover .isotope-overlay {
+.isotope .item .isotope-overlay {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
