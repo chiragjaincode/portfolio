@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My System Panel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./scss/style.css" rel="stylesheet" />
+    <link rel="icon" href="./images/thanks-img.webp" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="panel-component">
+
+
+
+        <div class="panel-main">
+
+
+            <div class="panel-data">
+                <div class="panel-heading">
+                    <div class="left">
+                        <img src="./images/logo.png" alt="logo" width="150" />
+                    </div>
+                    <div class="right">
+                        <h3>Panel Design </h3>
+                        <p>ABBC- 2132</p>
+                    </div>
+                </div>
+
+
+                <div class="panel-body-in">
+                    <div class="panel-head top-head">
+                        <div class="left">
+                            <h2>List of Actions <span>(Location - 10)</span></h2>
+                        </div>
+                        <div class="middle">
+                            <div class="pagination">Showing 1 - 4 of 4 Records</div>
+                        </div>
+                        <div class="right">
+                            <div class="record-item">
+                                <select name="no" id="">
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                </select> Records Per Page
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-list">
+                        <div class="panel-itemlisting" onClick="reply_click(this.id)" id="1">
+                            <div class="record-item-list">
+                                <div class="left">1. Lorem Ipsum</div>
+                                <div class="right">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <img src="./images/edit.png" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="delete-item">
+                                                <img src="./images/delete.png" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content-detail">
+                                <div class="first-row">
+                                    <div class="content">
+                                        <span>Label</span> data lorem;
+                                    </div>
+                                    <div class="content">
+                                        <span>detail data:</span> Miles & More
+                                    </div>
+                                </div>
+                                <div class="second-row">
+                                    <div class="content">
+                                        <span>Start Date:</span>1/29/2010 6:30:00 PM
+                                    </div>
+                                    <div class="content">
+                                        <span>Target Date:</span> :1/29/2010 6:30:00 PM
+                                    </div>
+                                </div>
+                                <div class="third-row">
+                                    <div class="content">
+                                        <span>Actual Date:</span>1/29/2010 6:30:00 PM
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-itemlisting" onClick="reply_click(this.id)" id="2">
+                            <div class="record-item-list">
+                                <div class="left">2. Lorem Ipsum</div>
+                                <div class="right">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <img src="./images/edit.png" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="delete-item">
+                                                <img src="./images/delete.png" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content-detail">
+                                <div class="first-row">
+                                    <div class="content">
+                                        <span>Label</span> data lorem;
+                                    </div>
+                                    <div class="content">
+                                        <span>detail data:</span> Miles & More
+                                    </div>
+                                </div>
+                                <div class="second-row">
+                                    <div class="content">
+                                        <span>Start Date:</span>1/29/2010 6:30:00 PM
+                                    </div>
+                                    <div class="content">
+                                        <span>Targe
+                                            t Date:</span> :1/29/2010 6:30:00 PM
+                                    </div>
+                                </div>
+                                <div class="third-row">
+                                    <div class="content">
+                                        <span>Actual Date:</span>1/29/2010 6:30:00 PM
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-itemlisting" onClick="reply_click(this.id)" id="3">
+                            <div class="record-item-list">
+                                <div class="left">3. Lorem Ipsum</div>
+                                <div class="right">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <img src="./images/edit.png" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="delete-item">
+                                                <img src="./images/delete.png" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content-detail">
+                                <div class="first-row">
+                                    <div class="content">
+                                        <span>Label</span> data lorem;
+                                    </div>
+                                    <div class="content">
+                                        <span>detail data:</span> Miles & More
+                                    </div>
+                                </div>
+                                <div class="second-row">
+                                    <div class="content">
+                                        <span>Start Date:</span>1/29/2010 6:30:00 PM
+                                    </div>
+                                    <div class="content">
+                                        <span>Target Date:</span> :1/29/2010 6:30:00 PM
+                                    </div>
+                                </div>
+                                <div class="third-row">
+                                    <div class="content">
+                                        <span>Actual Date:</span>1/29/2010 6:30:00 PM
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-itemlisting" onClick="reply_click(this.id)" id="4">
+                            <div class="record-item-list">
+                                <div class="left">4. Lorem Ipsum</div>
+                                <div class="right">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <img src="./images/edit.png" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="delete-item">
+                                                <img src="./images/delete.png" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content-detail">
+                                <div class="first-row">
+                                    <div class="content">
+                                        <span>Label</span> data lorem;
+                                    </div>
+                                    <div class="content">
+                                        <span>detail data:</span> Miles & More
+                                    </div>
+                                </div>
+                                <div class="second-row">
+                                    <div class="content">
+                                        <span>Start Date:</span>1/29/2010 6:30:00 PM
+                                    </div>
+                                    <div class="content">
+                                        <span>Target Date:</span> :1/29/2010 6:30:00 PM
+                                    </div>
+                                </div>
+                                <div class="third-row">
+                                    <div class="content">
+                                        <span>Actual Date:</span>1/29/2010 6:30:00 PM
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="panel-head bottom-head">
+                        <div class="left">
+                            <div class="pagination">
+                                Page
+                                <ul>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <div class="pagination">Showing 1 - 4 of 4 Records</div>
+                        </div>
+                        <div class="right">
+                            <div class="record-item">
+                                <select name="no" id="">
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                </select> Records Per Page
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="panel-new-action">
+                <div class="panel-top-head">
+                    <div class="panel-left">
+                        <h2>New Actions</h2>
+                    </div>
+                    <div class="panel-right">
+                        <div class="buttons">
+                            <a href="#" class="btn insertbutton">Insert New Data</a>
+                            <a href="#" class="btn">Click to Reload </a>
+                        </div>
+                        <div class="hide-show-button">
+                            <div class="img">
+                                <span class="label-item">Hide Data</span> <img src="./images/up.png" alt="up" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-field-main">
+                    <div class="panel-field-left field">
+                        <div class="row">
+                            <div class="item">
+                                <label for="label1">Line No.:</label>
+                                <select name="label1" id="label1">
+                                    <option value="first">At Last</option>
+                                    <option value="second">At First</option>
+                                    <option value="third">At Middle</option>
+                                </select>
+                            </div>
+                            <div class="item">
+                                <label for="poc">For/Poc</label>
+                                <input type="text" id="poc" name="poc" />
+
+                            </div>
+
+                            <div class="item checkbox">
+                                <label for="item-selected-cb">Item</label>
+                                <input type="checkbox" id="item-selected-cb" name="item-selected-cb" value="">
+                            </div>
+
+                            <div class="item">
+                                <label for="poc">For/Poc</label>
+                                <input type="text" id="poc" name="poc" />
+
+                            </div>
+
+                            <div class="item">
+                                <label for="label1">Status</label>
+                                <select name="label1" id="label1" class="status" placeholder="--Select--">
+                                    <option value="pending">Pending</option>
+                                    <option value="second">WIP</option>
+                                    <option value="done">Done</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-field-right field">
+                        <div class="row">
+                            <div class="date">
+                                <label for="fname">Start Date</label>
+                                <input type="text" id="fname" name="fname" />
+                                <div class="icon-date">
+                                    <img src="images/date.png" />
+                                </div>
+                            </div>
+                            <div class="hours">
+                                <label for="hours">Hr.</label>
+                                <select name="hours" id="hours">
+                                    <option value="18">18</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                </select>
+                            </div>
+                            <div class="min">
+                                <label for="min">Min</label>
+                                <select name="Min" id="min">
+                                    <option value="38">38</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="date item">
+                                <label for="fname">Target Date</label>
+                                <input type="text" id="fname" name="fname" />
+                                <div class="icon-date">
+                                    <img src="images/date.png" />
+                                </div>
+                            </div>
+                            <div class="hours item">
+                                <label for="hours">Hr.</label>
+                                <select name="hours" id="hours">
+                                    <option value="18">18</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                </select>
+                            </div>
+                            <div class="min item">
+                                <label for="min">Min</label>
+                                <select name="Min" id="min">
+                                    <option value="38">38</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="date item">
+                                <label for="fname">Actual Date</label>
+                                <input type="text" id="fname" name="fname" />
+                                <div class="icon-date">
+                                    <img src="images/date.png" />
+                                </div>
+                            </div>
+                            <div class="hours item">
+                                <label for="hours">Hr.</label>
+                                <select name="hours" id="hours">
+                                    <option value="18">18</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                </select>
+                            </div>
+                            <div class="min item">
+                                <label for="min">Min</label>
+                                <select name="Min" id="min">
+                                    <option value="38">38</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="panel-show-btn">
+                <a href="#" class="btn show-action-btn">Show Action</a>
+            </div>
+
+            <div class="panel-buttons">
+                <a href="#" class="btn show-popup">Save</a>
+                <a href="#" class="btn">Save & Exit</a>
+                <a href="#" class="btn">Cancel</a>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="popup">
+        <div class="popup__content">
+            <img src="./images/bigrotation2.gif" />
+        </div>
+    </section>
+
+    <section class="popup-big">
+        <div class="popup-content-data">
+            <h2>Are you sure you want to change the status to DONE?</h2>
+            <div class="buttons">
+                <a href="#" class="btn btn-sucess">YES</a>
+                <a href="#" class="btn btn-danger">No</a>
+            </div>
+
+            <div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <script src="./js/theme.js"></script>
+
+</body>
+
+</html>
