@@ -1,0 +1,17 @@
+header {
+    z-index: 100;
+    .navbar {
+        background-color: $blue;
+        .navbar-brand {
+            max-width: 180px;
+        }
+    }
+}
+
+// onclick hemburgermenu close icon show
+.navbar-toggler[aria-expanded="true"] {
+    .navbar-toggler-icon {
+        background-image: url('../images/cancel.png');
+        background-size: 20px;
+    }
+}
