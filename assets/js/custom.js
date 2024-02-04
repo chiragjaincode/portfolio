@@ -126,7 +126,7 @@ $(document).ready(function() {
 
 
     var typed = new Typed('.input', {
-        strings: ["UI Designer", "Web Designer", "UI Developer", "HTML Developer"],
+        strings: ["Web Designer", "Frontend Developer", "UI Developer", "HTML Developer"],
         typeSpeed: 100,
         backSpeed: 100,
         loop: true,
